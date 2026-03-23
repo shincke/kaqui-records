@@ -1,7 +1,7 @@
 import { defineEventHandler } from "h3";
 import { createClient } from "contentful";
 
-export default defineEventHandler(async (event) => {
+export default defineEventHandler(async (event: Event) => {
 	// const environmentData = getEnvironmentFromContext(event);
 
 	// if (!environmentData) {
